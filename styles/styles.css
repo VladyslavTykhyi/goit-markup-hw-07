@@ -1,25 +1,25 @@
-:root {
-  /* Fonts */
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+/* :root { */
+/* Fonts */
+/* --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif; */
 
-  /* Text colors */
-  --main-txt-cl: #757575;
+/* Text colors */
+/* --main-txt-cl: #757575;
   --main-title-cl: #212121;
   --light-txt-cl: #ffffff99;
   --accent-txt-cl: #2196f3;
-  --hero-txt-cl: #ffffff;
+  --hero-txt-cl: #ffffff; */
 
-  /* Background colors */
-  --accent-bg-cl: #2094f3;
+/* Background colors */
+/* --accent-bg-cl: #2094f3;
   --main-bg-cl: #2f303a;
   --light-bg-cl: #f5f4fa;
-  --card-bg-cl: #ffffff;
+  --card-bg-cl: #ffffff; */
 
-  /* Other */
-}
+/* Other */
+/* } */
 /* Reset and General styles */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -27,20 +27,20 @@ h5,
 h6,
 p {
   margin: 0;
-}
-img {
+} */
+/* img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-.page {
+} */
+/* .page {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-}
-.link {
+} */
+/* .link {
   text-decoration: none;
   color: currentColor;
 }
@@ -48,8 +48,8 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-.section {
+} */
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -58,8 +58,8 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
-.hidden-elements {
+} */
+/* .hidden-elements {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -71,9 +71,9 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 /* Header */
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
 }
 .header-container {
@@ -162,10 +162,10 @@ img {
 .header_group-icon {
   fill: currentColor;
   margin-right: 10px;
-}
+} */
 
 /* Main; Hero */
-.hero {
+/* .hero {
   background-color: var(--main-bg-cl);
   color: var(--hero-txt-cl);
   padding-top: 200px;
@@ -215,9 +215,9 @@ img {
 .hero__btn:hover,
 .hero__btn:focus {
   background-color: #188ce8;
-}
+} */
 /* Hero modal window */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -290,10 +290,10 @@ img {
 .modal-btn:hover,
 .modal-btn:focus {
   fill: var(--accent-txt-cl);
-}
+} */
 
 /* Benefits */
-.benefits__list {
+/* .benefits__list {
   display: flex;
   gap: 30px;
 }
@@ -315,9 +315,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 /* Work */
-.work {
+/* .work {
   padding-top: 0;
 }
 .work__list {
@@ -356,10 +356,10 @@ img {
 
   height: 70px;
   width: 100%;
-}
+} */
 
-/* Out team */
-.txt-card-container {
+/* Our team */
+/* .txt-card-container {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -394,9 +394,9 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--card-bg-cl);
-}
+} */
 /* Social links */
-.social-links-list {
+/* .social-links-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -427,10 +427,10 @@ img {
 .social-link-icon:hover,
 .social-link-icon:focus {
   fill: var(--hero-txt-cl);
-}
+} */
 
 /* Our clients */
-.clients {
+/* .clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -461,10 +461,10 @@ img {
 .clients__icon {
   width: 106px;
   height: 60px;
-}
+} */
 
 /* Footer */
-.footer {
+/* .footer {
   background-color: var(--main-bg-cl);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -533,9 +533,9 @@ img {
 }
 .address-map {
   color: var(--hero-txt-cl);
-}
+} */
 /* Newsletter part */
-.newsletter {
+/* .newsletter {
   display: block;
 }
 .newsletter__text {
@@ -596,11 +596,11 @@ img {
 .newsletter__btn:hover,
 .newsletter__btn:focus {
   background-color: #188ce8;
-}
+} */
 
 /* Register form */
 
-.register-form-txt {
+/* .register-form-txt {
   display: block;
 
   text-align: center;
@@ -743,10 +743,10 @@ img {
   display: block;
   margin: 0 auto;
   color: var(--hero-txt-cl);
-}
+} */
 
 /* Portfolio page */
-.btn-list {
+/* .btn-list {
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -849,4 +849,4 @@ img {
   background-color: var(--accent-bg-cl);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
