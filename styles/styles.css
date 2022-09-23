@@ -92,6 +92,9 @@ img {
   margin-right: auto;
 }
 
+.header__link {
+  margin-right: 93px;
+}
 .nav__list {
   display: flex;
   align-items: center;
@@ -152,8 +155,6 @@ img {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--main-title-cl);
-
-  margin-right: 93px;
 }
 .logo__accent {
   color: var(--accent-txt-cl);
@@ -183,7 +184,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -192,7 +193,7 @@ img {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-.hero-btn {
+.hero__btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -211,8 +212,8 @@ img {
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-btn:hover,
-.hero-btn:focus {
+.hero__btn:hover,
+.hero__btn:focus {
   background-color: #188ce8;
 }
 /* Hero modal window */
@@ -292,11 +293,11 @@ img {
 }
 
 /* Benefits */
-.benefits-list {
+.benefits__list {
   display: flex;
   gap: 30px;
 }
-.benefits-title {
+.benefits__title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -305,7 +306,7 @@ img {
   color: var(--main-title-cl);
   margin-bottom: 10px;
 }
-.benefits-icon-container {
+.benefits__icon-container {
   height: 120px;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -319,7 +320,7 @@ img {
 .work {
   padding-top: 0;
 }
-.work-list {
+.work__list {
   display: flex;
   justify-content: space-between;
 }
@@ -332,10 +333,10 @@ img {
   color: var(--main-title-cl);
   margin-bottom: 50px;
 }
-.work-list-item {
+.work__list-item {
   position: relative;
 }
-.work-item-wrapper {
+.work__list-item-wrapper {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -433,12 +434,12 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-.clients-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -452,12 +453,12 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   fill: #2196f3;
   border: 1px solid #2196f3;
 }
-.client-icon {
+.clients__icon {
   width: 106px;
   height: 60px;
 }
@@ -476,13 +477,13 @@ img {
   margin-right: 70px;
   flex-grow: 1;
 }
-.social-links-footer {
+.social-footer {
   display: block;
   width: 206px;
 
   margin-right: 93px;
 }
-.social-footer-link {
+.social-footer__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -495,19 +496,19 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-footer-link:hover,
-.social-footer-link:focus {
+.social-footer__link:hover,
+.social-footer__link:focus {
   background-color: #2196f3;
   border-radius: 50%;
 }
 
-.social-footer-list {
+.social-footer__list {
   display: flex;
   justify-content: space-between;
   cursor: pointer;
 }
 
-.social-footer-title {
+.social-footer__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -516,18 +517,18 @@ img {
   color: var(--hero-txt-cl);
   margin-bottom: 20px;
 }
-.footer-icon {
+.social-footer__icon {
   display: block;
   fill: var(--hero-txt-cl);
 }
-.logo-footer {
+.footer__logo {
   color: var(--hero-txt-cl);
 }
 .address {
   font-style: normal;
   margin-top: 20px;
 }
-.address-item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 .address-map {
@@ -537,7 +538,7 @@ img {
 .newsletter {
   display: block;
 }
-.newsletter-text {
+.newsletter__text {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -548,11 +549,11 @@ img {
 
   margin-bottom: 20px;
 }
-.newsletter-label {
+.newsletter__label {
   display: inline-block;
   margin-right: 12px;
 }
-.newsletter-input {
+.newsletter__input {
   width: 358px;
   height: 50px;
   padding: 15px;
@@ -565,7 +566,7 @@ img {
   border-radius: 4px;
   box-sizing: border-box;
 }
-.newsletter-btn {
+.newsletter__btn {
   min-width: 200px;
   height: 50px;
   padding: 10px 29px;
@@ -589,11 +590,11 @@ img {
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.newsletter-icon {
+.newsletter__icon {
   margin-left: 10px;
 }
-.newsletter-btn:hover,
-.newsletter-btn:focus {
+.newsletter__btn:hover,
+.newsletter__btn:focus {
   background-color: #188ce8;
 }
 
